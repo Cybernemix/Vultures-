@@ -174,6 +174,7 @@ function setBgImage(imageUrl) {
 setBgImage('https://pbs.twimg.com/media/GF9mcJ3W8AAWWzz?format=jpg&name=medium');
 
 
+
 function reset(){
     curr_time.textContent = "00:00";
     total_duration.textContent = "00:00";
