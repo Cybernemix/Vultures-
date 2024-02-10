@@ -166,6 +166,13 @@ initialize_bg();
 
 // Call this function whenever the song changes
 change_bg_on_song_change();
+function setBgImage(imageUrl) {
+    document.body.style.backgroundImage = "url('" + imageUrl + "')";
+}
+
+// Call setBgImage with the URL of your background image here
+setBgImage('https://pbs.twimg.com/media/GF9mcJ3W8AAWWzz?format=jpg&name=medium');
+
 
 function reset(){
     curr_time.textContent = "00:00";
