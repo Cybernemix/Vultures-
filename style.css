@@ -1,9 +1,10 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to right,#9a1d86, #1595be);
     font-weight: bold;
-    }
-    
+    background-color: rgb(26, 25, 25); /* Set background color to black */
+}
+
+
     .player{
       height: 95vh;
       display: flex;
@@ -15,8 +16,8 @@ body {
       border: 1px solid transparent;
       padding: 30px;
       border-radius: 20px;
-      background-color: #5f5f5f;
-      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+      background-color: #414141;
+      box-shadow: rgba(110, 110, 110, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     }
     
     .details {
@@ -34,9 +35,9 @@ body {
     background-size: cover;
     background-position: center;
     border-radius: 50%;
-    -moz-box-shadow: 0px 6px 5px black;
-    -webkit-box-shadow: 0px 6px 5px black;
-    box-shadow: 0px 6px 5px black;
+    -moz-box-shadow: 0px 6px 5px rgb(255, 255, 255);
+    -webkit-box-shadow: 0px 6px 5px rgb(29, 131, 34);
+    box-shadow: 0px 6px 5px rgb(56, 129, 7);
     -moz-border-radius:190px;
     -webkit-border-radius:190px;
     border-radius:190px;
@@ -62,7 +63,7 @@ body {
     margin-bottom: 30px;
     }
     .active{
-        color: black;
+        color: rgb(0, 0, 0);
     }
     
     .repeat-track,
@@ -106,7 +107,7 @@ body {
     appearance: none;
     width: 15px;
     height: 15px;
-    background: rgb(255, 255, 255);
+    background: rgb(3, 255, 57);
     border: 3px solid #000000;
     cursor: grab;
     border-radius: 100%;
